@@ -55,8 +55,15 @@ map:
       modes:
         - BICYCLE_RENT
 
-    - type: car-rental
+    - type: car-rental-car2go
+      company: CAR2GO
       name: car2go Locations
+      modes:
+        - CAR_RENT
+
+    - type: car-rental-reachnow
+      company: REACHNOW
+      name: ReachNow Locations
       modes:
         - CAR_RENT
 
@@ -114,7 +121,11 @@ modes:
     - mode: CAR_PARK
       label: Park & Ride
     - mode: CAR_RENT
+      company: CAR2GO
       label: Transit + car2go
+    - mode: CAR_RENT
+      company: REACHNOW
+      label: Transit + ReachNow
     - mode: CAR_HAIL
       company: UBER
       label: Transit + Uber
