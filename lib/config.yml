@@ -14,7 +14,7 @@ homeTimezone: America/Los_Angeles
 # OTP API
 api:
   host: https://maps.trimet.org
-  path: /otp_ct
+  path: /otp_mod
 
 
 # Enabled multimodal routing types (e.g. interary, profile)
