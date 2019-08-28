@@ -1,6 +1,6 @@
 #
 # TriMet MOD Map
-# Config built on: Wednesday, August 28, 2019 @ 11:53pm
+# Config built on: Thursday, August 29, 2019 @ 12:11am
 #
 
 # react-router config, for URL routing (not to be confused with multimodal/OTP routing)
@@ -322,15 +322,19 @@ companies:
   - id: BIKETOWN
     label: Biketown
     modes: BICYCLE_RENT
-  - id: BOLT
-    label: Bolt
-    modes: MICROMOBILITY_RENT
-  - id: BIRD
-    label: Bird
-    modes: MICROMOBILITY_RENT
   - id: CAR2GO
     label: car2go
     modes: CAR_RENT
+  - id: UBER
+    label: Uber
+    modes: CAR_HAIL
+
+  - id: BIRD
+    label: Bird
+    modes: MICROMOBILITY_RENT
+  - id: BOLT
+    label: Bolt
+    modes: MICROMOBILITY_RENT
   - id: LIME
     label: Lime
     modes: MICROMOBILITY_RENT
@@ -340,9 +344,6 @@ companies:
   - id: SPIN
     label: SPIN
     modes: MICROMOBILITY_RENT
-  - id: UBER
-    label: Uber
-    modes: CAR_HAIL
 
 errorMessages:
   - id: 404
