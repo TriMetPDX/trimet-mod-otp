@@ -1,6 +1,6 @@
 #
 # TriMet MOD Map
-# Config built on: Thursday, August 29, 2019 @ 12:11am
+# Config built on: Thursday, August 29, 2019 @ 9:46pm
 #
 
 # react-router config, for URL routing (not to be confused with multimodal/OTP routing)
@@ -123,7 +123,7 @@ map:
           type: hubAndFloatingBike
 
     - type: micromobility-rental
-      name: Bird eScooter Locations
+      name: Bird E-scooter Locations
       modes:
         - MICROMOBILITY_RENT
       companies:
@@ -147,7 +147,7 @@ map:
           type: marker
 
     - type: micromobility-rental
-      name: Bolt eScooter Locations
+      name: Bolt E-scooter Locations
       modes:
         - MICROMOBILITY_RENT
       companies:
@@ -172,7 +172,7 @@ map:
 
 
     - type: micromobility-rental
-      name: Lime eScooter Locations
+      name: Lime E-scooter Locations
       modes:
         - MICROMOBILITY_RENT
       companies:
@@ -196,7 +196,7 @@ map:
           type: marker
 
     - type: micromobility-rental
-      name: Razor eScooter Locations
+      name: Razor E-scooter Locations
       modes:
         - MICROMOBILITY_RENT
       companies:
@@ -221,7 +221,7 @@ map:
 
 
     - type: micromobility-rental
-      name: Spin eScooter Locations
+      name: Spin E-scooter Locations
       modes:
         - MICROMOBILITY_RENT
       companies:
@@ -284,10 +284,10 @@ modes:
     - mode: BICYCLE
       label: Transit + Personal bike
     - mode: BICYCLE_RENT
-      label: Transit + Biketown
+      label: Transit + BIKETOWN
       company: BIKETOWN
     - mode: MICROMOBILITY_RENT
-      label: Transit + eScooter rental
+      label: Transit + E-scooter
     - mode: CAR_PARK
       label: Park & Ride
     - mode: CAR_RENT
@@ -311,7 +311,7 @@ modes:
       label: Own Bike
       iconWidth: 18
     - mode: BICYCLE_RENT
-      label: Biketown
+      label: BIKETOWN
       iconWidth: 36
 
 # A list of private transportation operators. These are either companies that
@@ -320,7 +320,7 @@ modes:
 # commas. For example: BICYCLE_RENT,MICROMOBILITY_RENT.
 companies:
   - id: BIKETOWN
-    label: Biketown
+    label: BIKETOWN
     modes: BICYCLE_RENT
   - id: CAR2GO
     label: car2go
@@ -342,7 +342,7 @@ companies:
     label: Razor
     modes: MICROMOBILITY_RENT
   - id: SPIN
-    label: SPIN
+    label: Spin
     modes: MICROMOBILITY_RENT
 
 errorMessages:
