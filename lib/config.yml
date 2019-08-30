@@ -1,6 +1,6 @@
 #
 # TriMet MOD Map
-# Config built on: Thursday, August 29, 2019 @ 9:46pm
+# Config built on: Friday, August 30, 2019 @ 10:07am
 #
 
 # react-router config, for URL routing (not to be confused with multimodal/OTP routing)
@@ -219,6 +219,29 @@ map:
           fillColor: "#656565"
           type: marker
 
+    - type: micromobility-rental
+      name: Shared E-scooter Locations
+      modes:
+        - MICROMOBILITY_RENT
+      companies:
+        - SHARED
+      mapSymbols:
+        - maxZoom: 12
+          minZoom: 0
+          type: circle
+          pixels: 3
+          fillColor: "#656565"
+          strokeColor: "#CCCCCC"
+        - maxZoom: 15
+          minZoom: 13
+          type: circle
+          pixels: 5
+          fillColor: "#656565"
+          strokeColor: "#CCCCCC"
+        - maxZoom: 20
+          minZoom: 16
+          fillColor: "#656565"
+          type: marker
 
     - type: micromobility-rental
       name: Spin E-scooter Locations
@@ -340,6 +363,9 @@ companies:
     modes: MICROMOBILITY_RENT
   - id: RAZOR
     label: Razor
+    modes: MICROMOBILITY_RENT
+  - id: SHARED
+    label: shared
     modes: MICROMOBILITY_RENT
   - id: SPIN
     label: Spin
